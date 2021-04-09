@@ -4,5 +4,8 @@ SHELL := /bin/bash
 
 .PHONY: build
 build:
-	docker build -t docker.io/streamr/nginx:dev .
+	docker build \
+		--no-cache \
+		--progress=plain \
+		--tag docker.io/streamr/nginx:dev .
 
