@@ -35,7 +35,7 @@ fi
 validate_version "$version"
 
 # Create release commit
-git commit --message="Release ${version}"
+git commit --allow-empty --message="Release ${version}"
 git push
 # Create tag
 git tag --message="Release ${version}" --annotate "v${version}"
