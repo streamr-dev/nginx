@@ -7,5 +7,5 @@ build:
 	docker build \
 		--no-cache \
 		--progress=plain \
-		--tag docker.io/streamr/nginx:dev .
+		--tag docker.io/streamr/nginx:latest .
 
