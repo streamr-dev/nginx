@@ -39,7 +39,6 @@ jobs:
 
   delivery:
     name: Delivery
-    if: github.event_name != 'pull_request'
     needs:
       - integration
     runs-on: ubuntu-latest
