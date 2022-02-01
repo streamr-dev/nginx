@@ -70,7 +70,6 @@ jobs:
             type=ref,event=branch
             type=ref,event=pr
             type=sha
-            type=raw,value=dev
           flavor: |
             latest=auto
       - name: Login to Docker Hub Container Registry
