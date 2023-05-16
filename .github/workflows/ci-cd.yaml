@@ -56,7 +56,7 @@ jobs:
             ${{ runner.os }}-buildx-v1-
       - name: Docker meta
         id: docker_meta
-        uses: docker/metadata-action@v4.3.0
+        uses: docker/metadata-action@v4.4.0
         with:
           images: streamr/nginx
           tags: |
